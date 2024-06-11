@@ -121,7 +121,7 @@ processPermissions();
 async function processPermissions() {
   for (const permission of permissions) {
     const result = await getPermission(permission);
-    log(result);
+    console.log(result);
   }
 }
 
